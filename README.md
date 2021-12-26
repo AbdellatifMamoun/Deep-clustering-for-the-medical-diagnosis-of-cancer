@@ -1,47 +1,33 @@
 # Deep Clustering for the Medical Diagnosis of Cancer
 Transfer and adaptation of general characteristics without supervision in microscopy images.
 
-# Real Python Materials
+## Table of contents
+* [Subject Presentation](#subject-presentation)
+* [Technologies](#technologies)
 
-Bonus materials, exercises, and example projects for Real Python's [Python tutorials](https://realpython.com).
+## Subject Presentation
 
-Build Status: [![CircleCI](https://circleci.com/gh/realpython/materials.svg?style=svg)](https://circleci.com/gh/realpython/materials)
+In the following project, we aim to create an image classifier with Tensorflow by implementing a convolutional neural network (CNN) to classify chest x-ray images with COVID 19 infection and images of normal cases.
 
-## Got a Question?
+The dataset contains chest x-ray images from both groups. We will carry out the entire project on the Google Colab environment.
 
-The best way to get support for Real Python courses & articles and code in this repository is to join one of our [weekly Office Hours calls](https://realpython.com/office-hours/) or to ask your question in the [RP Community Slack](https://realpython.com/community/). 
+### Project's Stages
+This project will be processed according to the following steps: 
 
-Due to time constraints we cannot provide 1:1 support via GitHub. See you on Slack or on the next Office Hours call 🙂
+- Data Preparation (visualization preprocessing and Augmentation)
 
-## Adding Source Code & Sample Projects to This Repo (RP Contributors)
+- Build a Convolutional Neural Network (CNN)
 
-### Running Code Style Checks
+- Compile and Train the Model
 
-We use [flake8](http://flake8.pycqa.org/en/latest/) and [black](https://github.com/ambv/black) to ensure a consistent code style for all of our sample code in this repository.
+- Performance Evaluation
 
-Run the following commands to validate your code against the linters:
+- Prediction on New Data
 
-```sh
-$ flake8
-$ black --check .
-```
-
-### Running Python Code Formatter
-
-We're using a tool called [black](https://github.com/ambv/black) on this repo to ensure consistent formatting. On CI it runs in "check" mode to ensure any new files added to the repo are following PEP 8. If you see linter warnings that say something like "would reformat some_file.py" it means black disagrees with your formatting. 
-
-**The easiest way to resolve these errors is to just run Black locally on the code and then committing those changes, as explained below.**
-
-To automatically re-format your code to be consistent with our code style guidelines, run [black](https://github.com/ambv/black) in the repository root folder:
-
-```sh
-$ black
-```
-
-### Technologies
+## Technologies
+* Notebook (Jupyter/Google Colab)
 * Python 
-* Tensorflow 
-* Pytorch 
-* OpenCV 
-* Flask
-* Heroku
+* Tensorflow
+
+
+
